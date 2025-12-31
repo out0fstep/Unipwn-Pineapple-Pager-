@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/out0fstep/Unipwn-Pineapple-Pager-/main/banner.png" alt="UniPwn Banner">
 </p>
 
-<h1 align="center"> UniPwn Pineapple Pager Port</h1>
+<h1 align="center"> UniPwn Robot Hunter</h1>
 <p align="center"><i>A port of Bin4ry's UniPwn BLE RCE exploit adapted for the Hak5 Pineapple Pager</i></p>
 
 <div align="center">
