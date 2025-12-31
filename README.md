@@ -2,14 +2,20 @@
   <img src="https://raw.githubusercontent.com/out0fstep/Unipwn-Pineapple-Pager-/main/banner.png" alt="UniPwn Banner">
 </p>
 
-<h1 align="center">🐍 UniPwn Pineapple Pager Port</h1>
+<h1 align="center"> UniPwn Pineapple Pager Port</h1>
 <p align="center"><i>A port of Bin4ry's UniPwn BLE RCE exploit adapted for the Hak5 Pineapple Pager</i></p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Pineapple_Pager-black?style=flat-square">
-  <img src="https://img.shields.io/badge/Status-Active-green?style=flat-square">
-  <img src="https://img.shields.io/badge/Use-Pentesting_only-red?style=flat-square">
-</p>
+<div align="center">
+
+-=[ **Created by** · [out0fstep](https://github.com/out0fstep) ]=-  
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![☕️ Buy Me a Coffee](https://img.shields.io/badge/%E2%98%95%EF%B8%8F-Buy%20Me%20a%20Coffee-yellow)](https://buymeacoffee.com/out0fstep)
+[![Follow @DorkfeastTeam](https://img.shields.io/badge/follow-@DorkfeastTeam-1DA1F2?logo=x&logoColor=white)](https://x.com/DorkfeastTeam)
+
+**Ḥą̥̥̍c̷̙̆k̘̝̰̭ T̻ȟ̔̓̀e̛̪̒̌ P̡̢̼̂l̟̑̀a̭n̨̹̖̆e̯̍ṯ̎̕!̶̐̒**
+
+</div>
 
 ---
 
@@ -53,3 +59,5 @@ opkg install git
 opkg install python3 python3-pip
 opkg install bluez-utils
 pip install bleak
+
+### I put the file in [ root/payloads/users/unipwn/payload.sh ]
