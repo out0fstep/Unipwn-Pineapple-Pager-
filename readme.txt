@@ -1,7 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/out0fstep/Unipwn-Pineapple-Pager-/main/banner.png" alt="UniPwn Banner">
-</p>
-
+![Main UI](https://github.com/out0fstep/Unipwn-Pineapple-Pager-/blob/main/Banner.png) 
 <h1 align="center">🐍 UniPwn Pineapple Pager Port</h1>
 <p align="center"><i>A port of Bin4ry's UniPwn BLE RCE exploit adapted for the Hak5 Pineapple Pager</i></p>
 
@@ -31,11 +28,7 @@
 - **Multi-Device Logging & First-Target Execution**
 
 ---
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/out0fstep/Unipwn-Pineapple-Pager-/main/image.jpg" alt="Pager Screenshot" width="450">
-</p>
-
+![Main UI](https://github.com/out0fstep/Unipwn-Pineapple-Pager-/main/image.jpg
 ---
 
 ## 🧩 Requirements
@@ -50,3 +43,4 @@ opkg install git
 opkg install python3 python3-pip
 opkg install bluez-utils
 pip install bleak
+
