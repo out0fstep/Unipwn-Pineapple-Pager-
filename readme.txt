@@ -1,38 +1,52 @@
 <p align="center">
-  ![UniPwn Banner](https://github.com/out0fstep/Unipwn-Pineapple-Pager-/blob/main/banner.png?raw=true)
+  <img src="https://raw.githubusercontent.com/out0fstep/Unipwn-Pineapple-Pager-/main/banner.png" alt="UniPwn Banner">
 </p>
 
-# 🐍 UniPwn Pineapple Pager Port  
+<h1 align="center">🐍 UniPwn Pineapple Pager Port</h1>
+<p align="center"><i>A port of Bin4ry's UniPwn BLE RCE exploit adapted for the Hak5 Pineapple Pager</i></p>
 
-> A port of **Bin4ry's UniPwn BLE RCE exploit** to the **Hak5 Pineapple Pager**.  
-This automated payload scans for vulnerable **Unitree robots** (**Go2, G1, H1, B2, X1**) over BLE, detects units within ~10m, and **executes remote commands automatically** (reboot, SSH enable, or custom injection).  
-
-⚠️ For **authorized pentesting/red team use only.**
-
-## ✨ Features  
-
-- **Automated BLE Hunting** – Background loop, 20s scans every 60s.  
-- **Non-Interactive Exploit Execution** – Cleans UniPwn cache & executes commands without user input.  
-- **Native Pineapple Integration** – Uses **DuckyScript alerts, LED, Ringtone**, logs to `/root/loot/`.  
-- **Configurable Runtime** – Adjust scan cycle, target commands, infinite run mode, etc.  
-- **Dependency Validation + Fail-Safe Exit Handling**  
-- **Multi-Target Capable** – Logs all devices, exploits first viable unit.  
-
----
 <p align="center">
-  ![UniPwn Banner](https://github.com/out0fstep/Unipwn-Pineapple-Pager-/blob/main/image.jpg?raw=true)
+  <img src="https://img.shields.io/badge/Platform-Pineapple_Pager-black?style=flat-square">
+  <img src="https://img.shields.io/badge/Status-Active-green?style=flat-square">
+  <img src="https://img.shields.io/badge/Use-Pentesting_only-red?style=flat-square">
 </p>
+
 ---
 
-## 📦 Requirements  
+> ⚠️ This tool is intended **only for authorized pentesting and research.**  
+> The author is **not responsible for misuse, damages, or illegal activity.**
 
-**Hardware**
+---
+
+## ✨ Features
+
+- **Automated BLE Hunting** – background scanner, ~10m detection
+- **Remote Command Execution** – reboot, enable SSH, or inject custom payloads
+- **Native Pineapple Integration**  
+  - DuckyScript alerts  
+  - LED + ringtone feedback  
+  - Loot logging to `/root/loot/`
+- **Self-Cleaning Exploit Cache**
+- **Scan/Exploit Loops with Configurable Timing**
+- **Multi-Device Logging & First-Target Execution**
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/out0fstep/Unipwn-Pineapple-Pager-/main/image.jpg" alt="Pager Screenshot" width="450">
+</p>
+
+---
+
+## 🧩 Requirements
+
+### Hardware
 - Hak5 **WiFi Pineapple Pager**
 
-**Software Packages**
+### Packages
+
 ```bash
 opkg install git
 opkg install python3 python3-pip
 opkg install bluez-utils
 pip install bleak
-
